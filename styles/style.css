@@ -1,0 +1,88 @@
+@font-face{
+	font-family: Archy;
+	src:url("../fonts/archyedt-bold-webfont.ttf");
+}
+
+*{
+	font-family: "Archy", sans-serif;
+}
+
+body{
+	background-image: url("../images/bg.jpg");
+}
+
+.questionContainer{
+	border: 1px solid white;
+	width: 10vw;
+	height: 98vh;
+	overflow-y: scroll;
+	float: left;
+	display: inline-block;
+}
+
+.questionChoice{
+	border: 1px solid white;
+	color: white;
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 0.5vh;
+	background-color: lightgray;
+}
+
+
+.displayContainer{
+	border: 1px solid black;
+	width: 80%;
+	height: 98vh;
+	display: inline-block;
+	margin-left: 5vw;
+}
+
+.questionText{
+	font-size: 1.3vw;
+	text-align: center;
+	margin-top: 35vh;
+	color: white;
+}
+
+.buttonContainer{
+	margin-top: 10vh;
+	text-align: center;
+
+}
+
+.buttonContainer button{
+	width: 10vw;
+	height: 5vh;
+	margin: 10vw;
+	border: 1px solid black;
+	border-radius: 0.5vw;
+}
+
+.buttonContainer button:hover{
+	background-color: #F26651;
+	width: 15vw;
+	color: white;
+}
+
+/*scrollbarr*/
+/* width */
+::-webkit-scrollbar {
+  width: 0.3vw;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: lightgray; 
+}
